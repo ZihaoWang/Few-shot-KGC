@@ -83,7 +83,7 @@ def init_hyp(dataset = None):
 
     parser.add_argument("--sim_func", default = 'TransE', type = str)
 
-    parser.add_argument("--seed", default = 0, type = int)
+    parser.add_argument("--seed", default = 1550148948, type = int)
     hyp = parser.parse_args()
 
     if dataset is None: # main()
