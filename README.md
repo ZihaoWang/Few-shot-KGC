@@ -1,6 +1,7 @@
 # Few-shot-KGC
 
 Download datasets from here: https://drive.google.com/open?id=1bekOAfMrx9V3uUp6dSYWkr-L5f3fTkwP
+
 Train a model on Wikidata: python main_reptile.py --train --dataset wikidata --idx_device -1
 Train a model on DBpedia: python main_reptile.py --train --dataset dbpedia --idx_device -1
 
