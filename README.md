@@ -10,4 +10,6 @@ Please note: --idx_device -1 means to train model on CPU.
 
 If you want to train it on GPU, replace -1 to your GPU index. For example, --idx_device 0.
 
+Dataset-specific hyper-parameters are in dataset_config.py, and other hyper-parameters are in hyp_reptile.py.
+
 
