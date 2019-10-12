@@ -8,7 +8,7 @@ import torch.nn.functional as F
 import numpy as np
 from collections import defaultdict
 
-from cnn_encoder import CNN_Encoder
+#from cnn_encoder import CNN_Encoder
 from memory_encoder import MemoryEncoder
 from triplet_vae import TripletVAE
 
@@ -23,8 +23,9 @@ class REPTILE(nn.Module):
             self.encoder = MemoryEncoder(hyp)
             info("finish initializing memory encoder")
         else:
-            self.encoder = CNN_Encoder(hyp)
-            info("finish initializing CNN encoder")
+            exit(-1)
+            #self.encoder = CNN_Encoder(hyp)
+            #info("finish initializing CNN encoder")
 
         self.vae = TripletVAE(hyp)
         self.modules = {
