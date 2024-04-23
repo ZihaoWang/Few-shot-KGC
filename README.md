@@ -1,4 +1,4 @@
-# Few-shot-KGC
+# Few-shot Learning for Uncommon Entities and Relations in Knowledge Graphs
 
 The source code for our paper [Tackling Long-Tailed Relations and Uncommon Entities in Knowledge Graph Completion](https://arxiv.org/abs/1909.11359).
 
