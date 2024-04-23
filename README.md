@@ -1,5 +1,7 @@
 # Few-shot-KGC
 
+The source code for our paper [Tackling Long-Tailed Relations and Uncommon Entities in Knowledge Graph Completion](https://arxiv.org/abs/1909.11359).
+
 Requirements: python3, pytorch1.0
 
 First, download two datasets from here: https://drive.google.com/open?id=1bekOAfMrx9V3uUp6dSYWkr-L5f3fTkwP, and put them into Few-shot-KGC/data/.
